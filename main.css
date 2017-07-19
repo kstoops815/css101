@@ -19,3 +19,14 @@ section {
 	text-transform: uppercase;
 }
 
+#instructors-love .title{
+	list-style: none;
+}
+
+#instructors-love .title ~ li {
+	/*background-color: blue;*/
+}
+
+#instructors-love ul:first-of-type li:nth-of-type(2n) {
+	color: white;
+}
